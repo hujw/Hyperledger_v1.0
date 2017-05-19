@@ -169,11 +169,11 @@ peer:
     tls:
         enabled:  true
         cert:
-            file: crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+            file: tls/server.crt
         key:
-            file: crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+            file: tls/server.key
         rootcert:
-            file: crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+            file: tls/ca.crt
 
         # The server name use to verify the hostname returned by TLS handshake
         serverhostoverride:
